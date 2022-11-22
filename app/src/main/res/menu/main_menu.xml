@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_favoritos"
+        android:title="Favoritos"
+        android:icon="@drawable/ic_favorite"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_Conta"
+        android:title="@string/title_cadastro"
+        android:icon="@drawable/ic_user"
+        app:showAsAction="ifRoom"/>
+
+
+
+
+
+</menu>
